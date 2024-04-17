@@ -1,0 +1,116 @@
+/* checkout,css */
+.root{
+    --color-grey-primary: lightgrey;
+    --color-yellow-primary: goldenrod;
+    --color-orange-primary: darkorange;
+    --color-green-primary: mediumseagreen;
+  
+  }
+  
+  html{
+    display: grid;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* 
+  .App{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+  }
+  
+  .productList{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5rem;
+  }
+  */
+  .cartCard{
+    position: relative;
+    background-color: var(--color-grey-primary);
+    margin: 1rem;
+    flex: 1 0 25rem;
+    max-width: 30rem;
+    max-height: 50rem;
+    transition: 0.2s;
+  } 
+  
+  .cart {
+    margin: 1%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .cart:hover {
+    border-color: #ff593d;
+  }
+  
+  .cart p {
+    min-height: 25px;
+  }
+  
+  .cart span {
+    font-weight: bold;
+  }
+  
+  .cart button {
+    width: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  
+  .cart button:hover {
+    color: white;
+    background-color: #ff593d;
+    border: 1px solid #ff593d;
+    cursor: pointer;
+  }
+  
+  .cart .image-product {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .cartdetails{
+    right: 50%;
+  }
+  
+  .cartCards{
+    display: grid;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .cartoutDetails{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  }
+
+.snipcart-remove-item{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 100px;
+}
+  
